@@ -1,0 +1,3 @@
+[submodule "sonar_data_processing/code/sl2json"]
+	path = sonar_data_processing/code/sl2json
+	url = https://gitlab.com/hrbrmstr/sl2json
