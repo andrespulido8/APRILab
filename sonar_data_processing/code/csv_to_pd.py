@@ -7,11 +7,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 df = pandas.read_csv(
-    '/home/andrespulido8/Documents/PhD_Stuff/sonar_data_processing/data_log/drone_csv/Oct-16th-2021-03-01PM-Flight-Airdata.csv',
-    usecols=['time(millisecond)', 'datetime(utc)', 'latitude', 'longitude', 'height_above_takeoff(feet)',
-             'height_above_ground_at_drone_location(feet)', 'ground_elevation_at_drone_location(feet)',
-             'altitude_above_seaLevel(feet)', 'height_sonar(feet)', 'speed(mph)', 'distance(feet)', ' xSpeed(mph)', ' ySpeed(mph)', ' zSpeed(mph)',
-             ' compass_heading(degrees)', ' pitch(degrees)', ' roll(degrees)', 'altitude(feet)'], parse_dates=['datetime(utc)'])
+    '/home/andrespulido8/Documents/PhD_Stuff/APRILab/sonar_data_processing/data_log/sonar_csv/Sonar_2021-10-16_14.38.24.csv.tab',
+    # usecols=['time(millisecond)', 'datetime(utc)', 'latitude', 'longitude', 'height_above_takeoff(feet)',
+    #         'height_above_ground_at_drone_location(feet)', 'ground_elevation_at_drone_location(feet)',
+    #         'altitude_above_seaLevel(feet)', 'height_sonar(feet)', 'speed(mph)', 'distance(feet)', ' xSpeed(mph)', ' ySpeed(mph)', ' zSpeed(mph)',
+    #         ' compass_heading(degrees)', ' pitch(degrees)', ' roll(degrees)', 'altitude(feet)'], parse_dates=['datetime(utc)'])
+)
 # df.drop(columns=["isPhoto", "isVideo", "voltageCell1", "voltageCell2", "voltageCell3",
 #        "voltageCell4", "voltageCell5", "voltageCell6", "current(A)", "battery_temperature(f)"])
 
