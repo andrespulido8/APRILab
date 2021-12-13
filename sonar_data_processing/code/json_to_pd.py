@@ -23,7 +23,7 @@ print(df.columns.values)
 
 
 df["latitude"].plot()
-df.plot.scatter(x="latitude", y="longitude")
+df.plot.scatter(x="longitude", y="latitude")
 plt.show()
 
 fig = plt.figure()
