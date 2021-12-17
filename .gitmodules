@@ -6,4 +6,4 @@
 	url = git@github.com:opensounder/python-sllib.git
 [submodule "sonar_data_processing/code/jupyter-notebooks"]
 	path = sonar_data_processing/code/jupyter-notebooks
-	url = git@github.com:opensounder/jupyter-notebooks.git
+	url = git@github.com:andrespulido8/jupyter-notebooks.git
